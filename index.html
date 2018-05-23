@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>自定义tab选项卡</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/wm.tab.css" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wm.tab.js"></script>
+</head>
+
+<body>
+    <div class="initClass">
+        <div class="wm-tab-nav clearfix">
+            <div class="wm-tab-nav-item fl"> 导航一 </div>
+            <div class="wm-tab-nav-item fl"> 导航二 </div>
+            <div class="wm-tab-nav-item fl"> 导航三 </div>
+        </div>
+
+        <div class="wm-tab-box">
+            <div class="wm-tab-view clearfix">
+                <div class="wm-tab-item fl">11111111111</div>
+                <div class="wm-tab-item fl">22222222222</div>
+                <div class="wm-tab-item fl">33333333333</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('.initClass').wmTab();
+    </script>
+</body>
+</html>
